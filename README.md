@@ -1,18 +1,27 @@
-## Getting Started
+Taller: Principio Abierto/Cerrado (OCP - Open/Closed Principle) en Java
+Descripción
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este proyecto tiene como objetivo aplicar el Principio de Abierto/Cerrado (OCP) de los principios SOLID en Java.
+El OCP establece que las clases deben estar abiertas para la extensión pero cerradas para la modificación, permitiendo agregar nuevas funcionalidades sin alterar el código existente.
 
-## Folder Structure
+Contenido del Taller
 
-The workspace contains two folders by default, where:
+Implementación de descuentos:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Descuento (clase abstracta)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+DescuentoPorcentaje (clase concreta para descuentos porcentuales)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+DescuentoFijo (clase concreta para descuentos fijos)
 
-## Dependency Management
+Ejemplo de ejecución en Main.java mostrando cómo aplicar distintos descuentos sin modificar la clase base.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Uso de OCP en sistemas de pago y notificaciones (concepto teórico aplicado).
+
+Beneficios
+
+Facilita la extensión de funcionalidades.
+
+Reduce errores al no modificar código existente.
+
+Mejora la mantenibilidad y flexibilidad del proyecto.
